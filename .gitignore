@@ -1,0 +1,11 @@
+node_modules/
+node.exe
+npm
+npm.cmd
+npx
+npx.cmd
+files.zip
+.env
+*.log
+.DS_Store
+Thumbs.db

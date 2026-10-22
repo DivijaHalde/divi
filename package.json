@@ -1,0 +1,30 @@
+{
+  "name": "apsit-faculty-ranking-system",
+  "version": "1.0.0",
+  "description": "Faculty Ranking & Evaluation System for A. P. Shah Institute of Technology, Thane (AY 2026-27)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "apsit",
+    "faculty-evaluation",
+    "ranking-system",
+    "express",
+    "mongodb",
+    "jwt",
+    "bcrypt"
+  ],
+  "author": "A. P. Shah Institute of Technology",
+  "license": "ISC",
+  "dependencies": {
+    "apsit-faculty-ranking-system": "file:",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  }
+}
